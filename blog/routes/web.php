@@ -20,4 +20,7 @@ Route::get('/user/logout', 'AuthController@logout');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/', 'AdminController@index');
+    Route::get('/producer', 'ProducerController@index');
+    Route::get('/premiered', 'PremieredController@index');
+    Route::get('/source', 'SourceController@index');
 });

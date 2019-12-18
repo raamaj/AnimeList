@@ -45,19 +45,19 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/producer" class="nav-link">
                   <i class="fa fa-building nav-icon"></i>
                   <p>Master Studio/Producer</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/premiered" class="nav-link">
                   <i class="fa fa-calendar nav-icon"></i>
                   <p>Master Premiered</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/source" class="nav-link">
                   <i class="fa fa-book nav-icon"></i>
                   <p>Master Source</p>
                 </a>
