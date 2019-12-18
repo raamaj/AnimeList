@@ -20,4 +20,5 @@ Route::get('/user/logout', 'AuthController@logout');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/', 'AdminController@index');
+    Route::post('/anime/insert', 'AnimeController@insert');
 });

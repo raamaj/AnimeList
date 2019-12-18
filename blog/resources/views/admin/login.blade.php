@@ -6,6 +6,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="_token" content="{!! csrf_token() !!}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -28,7 +29,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="card-body login-card-body">
             <p class="login-box-msg">Sign in to start your session</p>
             <form action="/user/tologin" method="post">
-                @csrf
+                {{csrf_field()}}
                 <div class="input-group mb-3">
                 <input type="text" class="form-control {{$errors->has('email') ? 'is-invalid' :''}}" placeholder="Email" name="email" value="{{old('email')}}">
                 <div class="input-group-append">

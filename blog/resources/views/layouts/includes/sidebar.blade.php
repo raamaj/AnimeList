@@ -45,7 +45,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/producer" class="nav-link">
                   <i class="fa fa-building nav-icon"></i>
                   <p>Master Studio/Producer</p>
                 </a>
