@@ -20,5 +20,11 @@ Route::get('/user/logout', 'AuthController@logout');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/', 'AdminController@index');
+<<<<<<< HEAD
+    Route::get('/producer', 'ProducerController@index');
+    Route::get('/premiered', 'PremieredController@index');
+    Route::get('/source', 'SourceController@index');
+=======
     Route::post('/anime/insert', 'AnimeController@insert');
+>>>>>>> 5747c153082ca3e461b72a3e8108263e32d09e15
 });
